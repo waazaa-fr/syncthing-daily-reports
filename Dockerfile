@@ -21,7 +21,8 @@ ENV DISCORD_WEBHOOK         = ""
 
 
 
-RUN pip install requests python-dateutil schedule
+RUN pip install --upgrade pip && \
+    pip install requests python-dateutil schedule
 COPY ./root /
 
 VOLUME ["/config", "/logs"]
