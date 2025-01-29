@@ -26,4 +26,4 @@ COPY ./root /
 
 VOLUME ["/config", "/logs"]
 WORKDIR /app
-CMD ["python", "syncthing_folders.py"]
+CMD ["python", "app.py"]
