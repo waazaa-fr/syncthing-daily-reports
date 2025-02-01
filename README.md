@@ -16,7 +16,7 @@ docker run -it --rm --name test-syncthing \
 **docker compose**
 ```yml
 services:
-  pydio:
+  app:
     image: waazaafr/syncthing-daily-reports:latest
     container_name: syncthing-daily-reports
     hostname: syncthing-daily-reports
